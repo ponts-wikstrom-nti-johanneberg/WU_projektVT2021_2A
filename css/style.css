@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.grid_wrapper_nav {
+    display: grid;
+    height: 75px;
+    width: 100vw;
+    position: sticky;
+    top: 0px;
+    background: red;
+}
+
+.links_list {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    font-size: 17px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
